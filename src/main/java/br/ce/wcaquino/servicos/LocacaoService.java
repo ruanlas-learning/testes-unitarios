@@ -31,28 +31,4 @@ public class LocacaoService {
 		
 		return locacao;
 	}
-
-	@Test
-	public void teste() {
-		//cenário
-		LocacaoService locacaoService = new LocacaoService();
-		Usuario usuario = new Usuario("Raj");
-		Filme filme = new Filme("A estrela cadente", 2, 12.9);
-		
-		//ação
-		Locacao locacao = locacaoService.alugarFilme(usuario, filme);
-		
-		
-		//verificação
-//		System.out.println(locacao.getValor());
-//		System.out.println(locacao.getDataLocacao());
-//		System.out.println(locacao.getDataRetorno());
-		
-//		System.out.println(locacao.getValor() == 12.9);
-//		System.out.println(DataUtils.isMesmaData(locacao.getDataLocacao(), new Date()));
-//		System.out.println(DataUtils.isMesmaData(locacao.getDataRetorno(), DataUtils.obterDataComDiferencaDias(1)));
-		Assert.assertTrue(locacao.getValor() == 12.9);
-		Assert.assertTrue(DataUtils.isMesmaData(locacao.getDataLocacao(), new Date()));
-		Assert.assertTrue(DataUtils.isMesmaData(locacao.getDataRetorno(), DataUtils.obterDataComDiferencaDias(1)));
-	}
 }

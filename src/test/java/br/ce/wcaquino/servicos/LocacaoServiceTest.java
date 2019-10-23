@@ -57,9 +57,11 @@ import br.ce.wcaquino.exceptions.FilmeSemEstoqueException;
 import br.ce.wcaquino.exceptions.LocadoraException;
 import br.ce.wcaquino.matcher.DiaSemanaMatcher;
 import br.ce.wcaquino.matcher.MatchersProprios;
+import br.ce.wcaquino.runners.ParallelRunner;
 import br.ce.wcaquino.utils.DataUtils;
-import buildermaster.BuilderMaster;
+//import buildermaster.BuilderMaster;
 
+@RunWith(ParallelRunner.class)
 public class LocacaoServiceTest {
 
 	@Rule
@@ -81,6 +83,7 @@ public class LocacaoServiceTest {
 	@Before
 	public void setup() {
 		MockitoAnnotations.initMocks(this);
+		System.out.println("iniciando 2...");
 //		locacaoService = new LocacaoService();
 ////		LocacaoDAO dao = new LocacaoDAOFake();
 //		
@@ -96,7 +99,7 @@ public class LocacaoServiceTest {
 	
 	@After
 	public void tearDown() {
-		
+		System.out.println("finalizando 2...");
 	}
 	
 	@BeforeClass

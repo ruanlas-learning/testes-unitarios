@@ -1,0 +1,13 @@
+/home/ruan/eclipse-workspace/testes-unitarios/src/test/java/br/ce/wcaquino/suites/SuiteExecucao.java
+/home/ruan/eclipse-workspace/testes-unitarios/src/test/java/br/ce/wcaquino/matcher/DiaSemanaMatcher.java
+/home/ruan/eclipse-workspace/testes-unitarios/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest_PowerMock.java
+/home/ruan/eclipse-workspace/testes-unitarios/src/test/java/br/ce/wcaquino/servicos/CalculadoraTest.java
+/home/ruan/eclipse-workspace/testes-unitarios/src/test/java/br/ce/wcaquino/builders/FilmeBuilder.java
+/home/ruan/eclipse-workspace/testes-unitarios/src/test/java/br/ce/wcaquino/runners/ParallelRunner.java
+/home/ruan/eclipse-workspace/testes-unitarios/src/test/java/br/ce/wcaquino/servicos/CalculadoraMockTest.java
+/home/ruan/eclipse-workspace/testes-unitarios/src/test/java/br/ce/wcaquino/servicos/CalculoValorLocacaoTeste.java
+/home/ruan/eclipse-workspace/testes-unitarios/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java
+/home/ruan/eclipse-workspace/testes-unitarios/src/test/java/br/ce/wcaquino/builders/LocacaoBuilder.java
+/home/ruan/eclipse-workspace/testes-unitarios/src/test/java/br/ce/wcaquino/matcher/MatchersProprios.java
+/home/ruan/eclipse-workspace/testes-unitarios/src/test/java/br/ce/wcaquino/builders/UsuarioBuilder.java
+/home/ruan/eclipse-workspace/testes-unitarios/src/test/java/br/ce/wcaquino/matcher/DataDiferencaDiasMatcher.java

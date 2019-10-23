@@ -56,7 +56,7 @@ import br.ce.wcaquino.exceptions.LocadoraException;
 import br.ce.wcaquino.matcher.DiaSemanaMatcher;
 import br.ce.wcaquino.matcher.MatchersProprios;
 import br.ce.wcaquino.utils.DataUtils;
-import buildermaster.BuilderMaster;
+//import buildermaster.BuilderMaster;
 
 @RunWith(PowerMockRunner.class)
 @PrepareForTest({

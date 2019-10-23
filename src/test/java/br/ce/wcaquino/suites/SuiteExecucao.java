@@ -12,7 +12,7 @@ import br.ce.wcaquino.servicos.LocacaoServiceTest;
 
 //@RunWith(Suite.class)
 @SuiteClasses({
-	CalculadoraTest.class,
+//	CalculadoraTest.class,
 	CalculoValorLocacaoTeste.class,
 	LocacaoServiceTest.class
 })

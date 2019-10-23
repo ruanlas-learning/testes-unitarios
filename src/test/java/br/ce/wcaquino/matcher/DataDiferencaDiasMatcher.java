@@ -1,5 +1,7 @@
 package br.ce.wcaquino.matcher;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
@@ -19,8 +21,10 @@ public class DataDiferencaDiasMatcher extends TypeSafeMatcher<Date> {
 	
 	public void describeTo(Description description) {
 		// mensagem de erro
-		Date date = DataUtils.obterDataComDiferencaDias(qtdDias);
-		description.appendText(date.toString());
+		Date dataEsperada = DataUtils.obterDataComDiferencaDias(qtdDias);
+//		DateFormat format = new SimpleDateFormat("dd/MM/YYYY");
+//		description.appendText(format.format(dataEsperada));
+		description.appendText(dataEsperada.toString());
 	}
 
 	@Override
